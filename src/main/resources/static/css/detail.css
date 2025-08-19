@@ -113,7 +113,7 @@ button {
 /* 수정 & 삭제 버튼 스타일 */
 .modify a,
 .modify button {
-  margin-top: 300px;
+  margin-top: 100px;
   display: inline-block;
   font-family: 'S-CoreDream-3Light', Arial, sans-serif;
   background-color: #076387;
@@ -137,7 +137,6 @@ main > p > a:hover {
 
 /* 목록 버튼 스타일 맞추기 */
 main > p {
-  margin-top: 300px;
   text-align: left;
 }
 
