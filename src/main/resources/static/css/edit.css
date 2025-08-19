@@ -1,4 +1,3 @@
-/* 이미 존재할 수도 있음 */
 @font-face {
   font-family: 'S-CoreDream-3Light';
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
@@ -14,107 +13,93 @@ html, body {
 
 body {
   font-family: 'S-CoreDream-3Light', Arial, sans-serif;
-  text-align: center;
+  background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background-color: #f4f4f4;
-}
-
-header {
-  width: 100%;
-  height: 150px;
-  background-color: #076387;
-  color: #fff;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.brand {
-  font-size: 35px;
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-  margin: 0;
-  padding: 0.5rem 1rem;
-}
-
-main {
-  width: 100%;
-  max-width: 800px;
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 2rem;
-  text-align: left;
 }
 
 h1 {
+  font-size: 2.5rem;
+  margin-top: 60px;
   margin-bottom: 30px;
-  font-size: 2.2rem;
-  font-weight: bold;
+  color: #076387;
   text-align: center;
 }
 
-.form-group {
-  margin-bottom: 1.5rem;
+form {
+  width: 100%;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
 }
 
 label {
   display: block;
   font-size: 1.1rem;
-  margin-bottom: 0.5rem;
   font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+  text-align: left;
 }
 
 input[type="text"],
 textarea {
   width: 100%;
-  padding: 0.7rem;
+  padding: 1rem;
+  font-size: 1.1rem;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  font-family: inherit;
-  font-size: 1rem;
+  border-radius: 6px;
+  margin-bottom: 2rem;
   box-sizing: border-box;
 }
 
 textarea {
   resize: vertical;
+  min-height: 200px;
 }
 
 .form-actions {
-  margin-top: 2rem;
   display: flex;
+  justify-content: flex-start;
   gap: 1rem;
-  align-items: center;
+  margin-top: 2rem;
+}
+
+button,
+form a {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  min-width: 100px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 button {
-  font-family: 'S-CoreDream-3Light', Arial, sans-serif;
-  padding: 0.6rem 1.2rem;
   background-color: #076387;
-  color: white;
+  color: #fff;
   border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  cursor: pointer;
 }
 
 button:hover {
-  background-color: #05506d;
+  background-color: #054e69;
 }
 
-a {
-  color: #420e9c;
-  text-decoration: none;
-  font-size: 1rem;
+form a {
+  background-color: #e0e0e0;
+  color: #333;
 }
 
-a:hover {
-  color: #055372;
+form a:hover {
+  background-color: #ccc;
+  color: #000;
 }
