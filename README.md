@@ -38,21 +38,4 @@
 ### 배포
 - Render.com (Free tier)
 
----
-
-## 🗃 프로젝트 구조
-
-src
-├── main
-│ ├── java
-│ │ └── com.example.board
-│ │ ├── controller
-│ │ ├── domain
-│ │ ├── repository
-│ │ ├── service
-│ │ └── config
-│ └── resources
-│ ├── templates (Thymeleaf HTML)
-│ ├── static/css
-│ └── application.yml
 
