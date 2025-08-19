@@ -17,15 +17,6 @@
 
 ---
 
-## 📷 페이지 미리보기
-
-| 회원가입 | 로그인 | 게시글 목록 |
-|---|---|---|
-| ![join](./screenshots/join.png) | ![login](./screenshots/login.png) | ![list](./screenshots/list.png) |
-
-> 이미지 폴더는 직접 생성하고 스크린샷을 넣어주세요 (`/screenshots`)
-
----
 
 ## 🛠 사용 기술
 
