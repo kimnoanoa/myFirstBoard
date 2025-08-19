@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko" xmlns:th="http://www.thymeleaf.org">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>회원가입</title></head>
+  <title>회원가입</title>
+  <link rel="stylesheet" href="/css/join.css">
+</head>
 <body>
 <header>
-  <a href="/" class="brand">🌀 임시로고</a>
+  <a href="/" class="brand">💎 MY NEW BOARD 💎</a>
 </header>
 
 <main>
@@ -18,7 +20,7 @@
     <div th:if="${#fields.hasErrors('*')}" style="color:red" th:errors="*{email}"></div>
     <div th:if="${error}" style="color:red" th:text="${error}"></div>
 
-    <button type="submit">가입</button>
+    <button class="joinBtn" type="submit">가입</button>
   </form>
   <a href="/oauth2/authorization/google" class="btn btn-primary">구글로 로그인</a>
 </main>

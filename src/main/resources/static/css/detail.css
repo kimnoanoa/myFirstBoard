@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'S-CoreDream-3Light', Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #076387;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+header div {
+  margin-top: 10px;
+}
+
+header div a,
+header div span {
+  font-size: 18px;
+  color: white;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+header div a:hover {
+  color: #aad8e6;
+  text-decoration: underline;
+}
+
+main {
+  width: 100%;
+  max-width: 800px;
+  min-height: 500px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  text-align: left;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+a {
+  color: #420e9c;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+button {
+  font-family: 'S-CoreDream-3Light', Arial, sans-serif;
+  background-color: #0d4257;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+.logout:hover{
+  color: #055372;
+  background-color: #fff;
+}
+.modify {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+
+/* 수정 & 삭제 버튼 스타일 */
+.modify a,
+.modify button {
+  margin-top: 300px;
+  display: inline-block;
+  font-family: 'S-CoreDream-3Light', Arial, sans-serif;
+  background-color: #076387;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* hover 효과 */
+.modify a:hover,
+.modify button:hover,
+main > p > a:hover {
+  background-color: #054863;
+}
+
+/* 목록 버튼 스타일 맞추기 */
+main > p {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+main > p > a {
+  display: inline-block;
+  font-family: 'S-CoreDream-3Light', Arial, sans-serif;
+  background-color: #076387;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+}
