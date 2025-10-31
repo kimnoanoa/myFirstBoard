@@ -70,6 +70,8 @@ main {
   margin-top: 2rem;
   text-align: left;
   color: #333;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 h1 {
@@ -103,52 +105,64 @@ button {
   color: #055372;
   background-color: #fff;
 }
+/* 🔹 수정·삭제 버튼 영역 */
 .modify {
   display: flex;
   justify-content: flex-start;
-  gap: 1rem;
-  margin-top: 5rem;
+  gap: 1.2rem;           /* 버튼 간격 */
+  margin-top: 3rem;      /* 본문과의 간격 */
 }
 
-/* 수정 & 삭제 버튼 스타일 */
+/* 🔹 수정 / 삭제 버튼 */
 .modify a,
 .modify button {
-  margin-top: 100px;
   display: inline-block;
   font-family: 'S-CoreDream-3Light', Arial, sans-serif;
   background-color: #076387;
-  color: white;
-  padding: 0.5rem 1.5rem;
-  border-radius: 5px;
+  color: #fff;
+  padding: 0.6rem 1.6rem;
+  border-radius: 8px;
   font-weight: bold;
-  text-decoration: none;
   border: none;
   cursor: pointer;
   font-size: 1rem;
   text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* hover 효과 */
 .modify a:hover,
-.modify button:hover,
-main > p > a:hover {
+.modify button:hover {
   background-color: #054863;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* 목록 버튼 스타일 맞추기 */
+/* 🔹 목록 버튼 (아래쪽 단독 배치) */
 main > p {
   text-align: left;
+  margin-top: 2rem;
 }
 
 main > p > a {
   display: inline-block;
   font-family: 'S-CoreDream-3Light', Arial, sans-serif;
-  background-color: #076387;
+  background-color: #0c597a;
   color: white;
-  padding: 0.5rem 1.5rem;
-  border-radius: 5px;
+  padding: 0.6rem 1.6rem;
+  border-radius: 8px;
   font-weight: bold;
   text-decoration: none;
   font-size: 1rem;
   text-align: center;
+  transition: all 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
+
+main > p > a:hover {
+  background-color: #06415c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
